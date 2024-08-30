@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 20px;
+}
+.Meme-Button{
+    margin-top: 20px;
+    padding: 12px 16px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: darksalmon;
+    color: aliceblue;
+    font-size: 24px;
+    border-radius: 15px;
+    width: 100% ;
+    max-width: 500px;
+}
+.button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.Meme-Button:hover{
+    cursor: pointer;
+    background-color:rgb(245, 134, 97) ;
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(248, 217, 177);
+    margin-top: 30px;
+    margin-inline: 30px;
+    max-width: 500px;
+    width: 100%;
+    inset:0;
+    margin: auto;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.28) 0px 0px 16px;
+}
+.image{
+   max-width: 430px;
+   width: 100%
+}
